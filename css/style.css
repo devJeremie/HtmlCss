@@ -1,0 +1,71 @@
+h1{
+   color:blue; 
+}
+/*classe s'appelle avec un .*/
+.ok{    
+   color:aqua ;
+}
+/*l'id s'appel avec un #*/
+#ok{
+    color: brown;
+}
+.textWhite{
+    color: white;
+}
+main{
+    padding-top: 80px;
+}
+/*------------effet parallax avec fonc d'ecran sur body--------*/
+.parallax{
+    background-image:url(../image/africa.jpg);/*definit mon image de fond*/
+    height: 100%;/*permet de dire de remplir 100% de son conteneur*/
+    background-attachment: fixed;/*fixe l'image de fond au scroll*/
+    background-position: center;/*positionne l'image de fond au centre*/
+    background-repeat: no-repeat;/*empeche la répétition de l'image*/
+    background-size: cover;/*redimensionne l'image pour couvrir l'intégralité de l'element*/
+}
+/*----------header------*/
+.logo{
+    width: 80px;
+}
+.header {
+    display: flex;
+    /*display: none;*/
+    justify-content:space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.toto{
+  display: flex;
+}
+ul li{
+  padding: 10px;
+  list-style-type: none;
+}
+ul li a{
+  text-decoration: none;
+}
+.header {
+    display: flex;
+    /*display: none;*/
+    justify-content:space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.toto{
+  display: flex;
+}
+ul li{
+  padding: 10px;
+  list-style-type: none;
+}
+ul li a{
+  text-decoration: none;
+}
+a:hover {
+    background-color: aqua;
+    color: blueviolet;
+    text-decoration: underline;
+}
